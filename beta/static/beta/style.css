@@ -1,0 +1,209 @@
+@font-face {
+    font-family: "Rubik medium";
+    src: url(Rubik/Rubik-Medium);
+}
+
+@font-face {
+    font-family: "Rubik light";
+    src: url(Rubik/Rubik-Light.ttf);
+}
+@font-face {
+    font-family: "Rubik Bold";
+    src: url(Rubik/Rubik-Bold.ttf);
+}
+@font-face {
+    font-family: "Rubik Regular";
+    src: url(Rubik/Rubik-Regular.ttf);
+}
+#main{
+    background: url(images/bg.png) no-repeat;
+    background-size: 740px;
+    height: 1150px;
+    width: 50%;
+    margin: auto;
+    color: white;
+
+}
+.header{
+    font-size: 29pt;
+    font-family: "Rubik medium";
+    padding-top:65px;
+    text-align: center;
+
+}
+.header span{
+    font-size: 35pt;
+    font-family: "Rubik Bold";
+}
+
+
+.midText{
+    font-family: "Rubik Regular";
+    font-weight: 300;
+    font-size: 15pt;
+    width: 80%;
+    margin: auto;
+    padding-top:27px;
+
+}
+
+.midText span{ 
+    font-family: "Rubik medium";
+
+
+}
+
+
+.form{
+    padding-top:50px;
+}
+.form label{
+    padding-bottom: 10px;
+}
+#form{
+        font-family: "Rubik medium";
+
+}
+select,input[type=text],textarea {
+  display: block;
+  width: 100%;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: #fff;
+  margin: auto;
+}
+
+.button{
+    padding-bottom: 20px;
+}
+button[type=submit]{
+  display: block;
+  padding: 18px 37px;
+  border: none;
+  border-radius: 20px;
+  background-color: #2af433;
+  margin: auto;
+  font-family: "Rubik medium";
+    color: white;
+    font-size: 15pt;
+    
+}
+input[type="file"] {
+  cursor: pointer !Important;
+  font: 500 16px ;
+  color:#fff;
+}
+input[type="file"]::-webkit-file-upload-button
+{
+  font: 500 16px  ;
+  background-color: #34a0e9;
+  border: 0;
+  border-radius: 20px;
+  padding: 6px 12px;
+  cursor: pointer;
+  color: #fff;
+}
+ 
+input[type="file"]::-ms-browse {
+  font: 500 16px 'Rubik';
+  background-color: #34a0e9;
+  border: 0;
+  border-radius: 20px;
+  padding: 6px 12px;
+  cursor: pointer;
+  color: #fff;
+}
+    
+#footnote{
+    font-family: Roboto;
+    font-size: 8pt;
+    color: darkgray;
+    text-align: center;
+    width: auto;
+    
+}
+#logo{
+  width: 50%;
+    margin: auto;
+}
+
+.logo{
+    max-width:26%;
+    max-height:26%;
+    margin: auto;
+} .small{
+     max-width:60%;
+    max-height:60%;
+    
+}
+#lang{
+ text-align: center;
+margin-left: 550px;
+    margin-bottom: 10px;
+}
+.no{
+    border: 0;
+    background: white;
+    margin: 0;
+    outline: none;
+}
+.no img{
+    max-width:60%;
+    max-height:60%;
+}
+#en{
+    margin-right: -15px;
+}
+.hidden{
+    display: none;
+}
+.tooltip {
+    display:inline-block;
+    position:relative;
+    border-bottom:1px dotted #666;
+    text-align:left;
+}
+
+.tooltip .right {
+    min-width:390px; 
+    top:50%;
+    left:100%;
+    margin-left:20px;
+    transform:translate(0, -50%);
+    padding:5px 10px;
+    color:#4652b5;
+    background-color:#fff;
+    font-weight:normal;
+    font-size:13px;
+    border-radius:8px;
+    position:absolute;
+    z-index:99999999;
+    box-sizing:border-box;
+    display:none;
+}
+
+.tooltip:hover .right {
+    display:block;
+}
+
+.tooltip .right i {
+    position:absolute;
+    top:50%;
+    right:100%;
+    margin-top:-12px;
+    width:12px;
+    height:24px;
+    overflow:hidden;
+}
+
+.tooltip .right i::after {
+    content:'';
+    position:absolute;
+    width:12px;
+    height:12px;
+    left:0;
+    top:50%;
+    transform:translate(50%,-50%) rotate(-45deg);
+    background-color:#fff;
+}
